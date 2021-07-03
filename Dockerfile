@@ -1,4 +1,4 @@
-FROM python:3
+FROM heroku/heroku:20-build
 
 RUN pip install fastapi
 RUN pip install uvicorn[standard]
